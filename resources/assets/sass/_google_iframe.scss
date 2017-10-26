@@ -1,0 +1,180 @@
+#google-form-container{
+  .duplicateButton {
+    top: -25px;
+    right: -40px;
+    float: right;
+    cursor: pointer;
+  }
+
+  .deleteButton {
+    top: -25px;
+    right: -40px;
+    float: right;
+    cursor: pointer;
+  }
+
+   .glyphicon-minus-sign{
+     position: relative;
+     float: left;
+     top: -25px;
+     cursor: pointer;
+   }
+
+  .fa-question-circle{
+    font-size: 24px;
+    color: #337ab7;
+    padding: 5px;
+  }
+  form{
+    padding-top:20px;
+    text-align: center;
+    direction: rtl;
+
+    input{
+      text-align: center;
+    }
+
+  }
+  .addButton{
+    margin-bottom: 5px;
+  }
+
+}
+    .nav-buttons{
+      .next-query{
+        display: flex;
+        align-items: center;
+        padding-left: 4px;
+      }
+
+      button{
+        min-width: 170px;
+      }
+
+       div {
+         text-align: center;
+         vertical-align: middle;
+       }
+
+      .editor-menu{
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 7px;
+        margin-left: 10px;
+
+        .dropdown{
+
+          .fa-bookmark-o{
+            float: left;
+            color: #2e6da4;
+            font-size: 19px;
+          }
+          button{
+            .repeat-icon{
+              float: right;
+            }
+          }
+          li{
+            a{
+              display: inline-block;
+              cursor: pointer;
+            }
+            display: flex;
+            flex-basis: auto;
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            padding-right: 7px;
+          }
+
+          div{
+            text-align: left;
+          }
+          .dropdown-menu{
+            width: 240px;
+            flex-direction: column;
+          }
+        }
+        .badge{
+          float: left;
+          min-width: 20px;
+        }
+      }
+
+      .nav-button{
+        line-height: 3;
+        cursor: pointer;
+      }
+       height: 50px;
+       vertical-align: middle;
+      margin-bottom: 0px;
+     }
+     #pages-indicator{
+       float: right;
+       display: inline-block;
+       padding: 14px;
+       font-weight: bold;
+     }
+     #current-url{
+       text-align: center;
+       background-color: #333;
+       color: white;
+       font-weight: bold;
+
+     }
+.add-bookmark-form{
+
+  display:none;
+  flex-direction: row-reverse!important;
+  position: absolute;
+  width: 215px;
+  background-color: #fff;
+  padding-top: 4px;
+
+  input{
+    margin-right: 3px;
+  }
+
+}
+.bookmarks-dropdown{
+  width: 240px;
+  display: none;
+
+  li{
+    padding-right: 0 ;
+    padding-left: 0;
+    i{
+
+      line-height: 26px;
+
+    }
+    a{
+      width:240px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+#next-button{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+
+.float-left{
+  float: left;
+}
+.float-right{
+  float:right;
+}
+
+.result{
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid black;
+}
+
+
+

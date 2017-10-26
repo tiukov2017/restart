@@ -1,0 +1,59 @@
+#references-table-page{
+
+  #references-table{
+    td{
+      text-overflow: ellipsis;
+      max-width: 200px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+
+      div{
+        width: 220px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        direction: ltr;
+
+        a{
+          font-size: 18px;
+          white-space: nowrap;
+        }
+      }
+
+      [data-toggle=modal]{
+
+        margin: 0 auto;
+        background-image: url("/checknet/public/assets/images/no-image.png");
+        height: 50px;
+        width: 78px;
+        background-size: 100% 100%;
+      }
+    }
+
+    th:last-child{
+
+      text-align: right;
+
+    }
+
+  }
+  .modal-dialog{
+    width: 100%!important;
+    margin: 0 auto;
+
+    .modal-content{
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  .panel-heading{
+
+    a {
+
+      &.button{
+        float: left;
+      }
+    }
+  }
+
+}
+

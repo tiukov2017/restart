@@ -1,0 +1,152 @@
+@media(max-width:$large){
+
+  .sidebar{
+    display: none;
+  }
+   .navigation{
+     padding: 0;
+   }
+
+  .moreDetailsButton{
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  #reportApp .expandable_title_fieldblock {
+    .block-icon-item{
+      width: 30px;
+      .fa{
+        font-size: 33px;
+      }
+    }
+  }
+
+}
+@media (max-width: $medium) {
+  .logo {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 400px){
+ #reportApp{
+   .save-menu{
+     padding-top: 18px;
+     left: 88%;
+   }
+ }
+
+}
+@media(max-width:$small){
+  #reportApp{
+
+    .floating-menu-item{
+      width: 39px;
+      height: 39px;
+      font-size: 11px;
+      i{
+        font-size: 20px;
+      }
+    }
+    .expandable_title_fieldblock {
+      .titleInput{
+        width: 80%;
+      }
+    }
+    .report-subheader{
+      font-size: 32px;
+    }
+     .simpleField{
+       .fieldLabel{
+         font-size: 16px;
+       }
+       input{
+         font-size: 16px;
+       }
+     }
+    .navigation{
+     .single_page{
+       p{
+         font-size: 13px;
+       }
+     }
+
+    }
+  .form-horizontal{
+
+    .moreDetailsButton{
+      font-size: 11px;
+    }
+
+  }
+  .sidebar{
+    display: none;
+  }
+  .navigation{
+    padding: 0;
+  }
+  .social_tabs{
+    li{
+      font-size: 12px;
+    }
+  }
+  .subsection_label_block{
+    font-size: 15px;
+  }
+  table {
+    th{
+      font-size: 13px;
+    }
+  }
+
+    .images{
+      img{
+        height: 188px;
+      }
+    }
+  }
+}
+@media (min-width: $large){
+
+  .sidebar{
+    min-width:255px;
+    .map_key{
+      min-width: 225px;
+    }
+  }
+
+  #reportApp .expandable_title_fieldblock {
+
+    .status-box{
+      .remind-field{
+        position: absolute;
+        top: 6px;
+        left: 48px;
+        font-size: 41px;
+      }
+    }
+  }
+
+  .moreDetailsButton{
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .save-menu{
+    left:84%;
+  }
+  #reportApp{
+
+    .floating-menu-item{
+      #shareBTN{
+        span{
+          display: inline-block;
+          vertical-align: middle;
+          height: 60px;
+          line-height: 60px;
+        }
+      }
+    }
+  }
+}

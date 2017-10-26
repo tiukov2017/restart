@@ -1,0 +1,151 @@
+@import "constants";
+
+
+.expandable_title_fieldblock{
+  padding-top: 31px;
+  padding-bottom: 31px;
+  font-size:20px;
+  border-top: 1px solid #5a609b;
+  margin-top: -1px;
+  margin-left: -1px;
+  background-color: white;
+
+  .containerField{
+    margin-bottom: 20px;
+  }
+  .title_container{
+    display: flex;
+    justify-content: center;
+  }
+  .social-container{
+   .button{
+     float:left;
+
+     button{
+       margin-top: 15px;
+     }
+   }
+    .plusMinusButtons{
+      float: left;
+      margin-top: 13px;
+    }
+  }
+  img{
+    display: inline;
+  }
+  .socialTitleIcon{
+    width:92px;
+  }
+
+  p.user-input{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+    min-height: 10px;
+  }
+
+  .row.strech{
+    .symbol{
+      float: left;
+    }
+  }
+  .row.strech.header {
+    text-align: center;
+    background-color: $tinyHeaders;
+  }
+
+  color: #000;
+  border-bottom: 1px solid $contrastColor ;
+  margin-right: 15px;
+
+  header{
+   background:none;
+   //border-bottom: 1px solid $contrastColor ;
+ }
+
+
+  .collapseAbleFieldBlock{
+    background-color: $mainLightColor;
+    border-bottom: 1px solid #5a609b;
+  }
+  .collapseAbleFieldBlock input{
+    font-size: 14px;
+  }
+
+  .simpleField {
+    padding: 0;
+    border:none;
+  }
+
+   label.fieldLabel {
+    color: #000;
+     font-weight: 700;
+     font-size: 16px;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+
+  .simpleField input{
+    background:none;
+    color: #000;
+    text-align: right!important;
+    display: block;
+    float: none;
+  }
+
+  .titleInput{
+    display: block;
+    width: 100%;
+    text-align: right!important;
+    font-size: 20px;
+    margin-top: 11px;
+    font-weight:700;
+    height: 30px;
+  }
+  .plusMinusButtons{
+    text-align: center;
+  }
+
+  .plusMinusButton{
+    color: #5a609b;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+    .block-icons{
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 6px;
+
+       .status-box{
+         margin-right: 4px;
+       }
+
+      .block-icon-item{
+        width: 45px;
+        display: flex;
+        align-items: center;
+      }
+
+      .remind-field{
+        .fa-clock-o{
+          color: #5a609b;
+          cursor: pointer;
+          font-size: 53px;
+
+          &.active{
+            color: #8d3b65;
+          }
+        }
+    }
+  }
+
+  .no-border-collapse-fields{
+    border: none;
+  }
+}
+

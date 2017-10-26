@@ -1,0 +1,28 @@
+.result{
+  .summary{
+    textarea{
+      width: 100%;
+    }
+  }
+  .result-header{
+    overflow: hidden;
+  }
+  .glyphicon-refresh-animate{
+    float: right;
+  }
+  .glyphicon-refresh{
+    float: right;
+  }
+}
+.checked-result{
+  background-color: #e0e0eb;
+  opacity: 0.5;
+  textarea{
+    background-color: #e0e0eb;
+  }
+}
+  .save {
+    .glyphicon-refresh-animate{
+      float: right;
+    }
+  }

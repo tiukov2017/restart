@@ -1,0 +1,80 @@
+
+.floating-menu-item{
+
+  color: #5a609b;
+  border: 1px solid #5a609b;
+  background-color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 6px;
+  cursor:pointer;
+
+  i{
+    font-size: 30px;
+  }
+
+}
+.floating-menu-item:hover{
+  background-color:  #eff0f5;
+}
+.floating-action-button{
+  color: #8d3b65;
+}
+
+.floating-menu-items{
+  display: none;
+}
+.save-menu{
+
+  left: 88%;
+  position: fixed;
+  top: 113px;
+  z-index: 500;
+
+  .fa-caret-square-o-left{
+    color:#5a609b;
+    font-size: 29px;
+    cursor: pointer;
+  }
+
+  .dropdown-menu{
+    width: 100%;
+    text-align: center;
+  }
+  .missing-fields-alert{
+    display: none;
+    color: #8d3b65;
+  }
+}
+#shareBTN{
+  display: none;
+}
+#previewBTN{
+  display:none;
+}
+#double-check-button{
+  display:none;
+}
+
+.reminder-alert{
+  position: fixed;
+  z-index: 1000;
+  text-align: center;
+  display: none;
+  max-width: 1200px;
+  width: 95%;
+  top: 49px;
+
+  .dropdown-menu{
+    float: left;
+    text-align: center;
+    left: 0;
+  }
+}
+
+

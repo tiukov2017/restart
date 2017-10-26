@@ -1,0 +1,2 @@
+<div class="addButton plusMinusButton view-mode-invisible" data-target="{{$target}}" data-scroll="{{$scroll}}"> <span class="glyphicon glyphicon-plus-sign"></span></div>
+<div class="removeButton plusMinusButton view-mode-invisible" data-target="{{$target}}" data-scroll="{{$scroll}}"> <span class="glyphicon glyphicon-minus-sign"></span></div>

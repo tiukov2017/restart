@@ -1,0 +1,40 @@
+.filter-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#results-table{
+  .result-url {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    div{
+      text-overflow: ellipsis;
+      overflow: hidden;
+      direction: ltr;
+      a{
+        font-size: 18px;
+        white-space: nowrap;
+      }
+    }
+  }
+  .result-switch{
+    width:50px;
+  }
+  .edit-cell{
+    width: 50px;
+  }
+  textarea{
+    width: 100%;
+    height: 115px;
+  }
+  .hidden{
+    display: none;
+  }
+  .glyphicon-refresh-animate{
+    float: right;
+  }
+}

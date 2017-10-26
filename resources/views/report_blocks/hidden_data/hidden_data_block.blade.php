@@ -1,0 +1,1 @@
+<input type="hidden" id="unique-counter" value="1">

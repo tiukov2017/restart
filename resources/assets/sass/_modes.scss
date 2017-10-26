@@ -1,0 +1,16 @@
+#reportApp.view-mode{
+
+  .view-mode-invisible{
+    display: none !important;
+  }
+
+}
+
+
+#reportApp:not(.view-mode){
+
+  .user-input, .titleInput, .cke_textarea_inline{
+    border: 1px dotted $mainColor !important;
+  }
+
+}

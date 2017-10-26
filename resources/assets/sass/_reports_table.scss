@@ -1,0 +1,29 @@
+#reports-table{
+
+  .locked{
+    color: gainsboro;
+  }
+  border-top: 1px solid black;
+}
+#reports-table_filter{
+position: relative;
+  margin-right: 50%;
+}
+.checkbox-container{
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+}
+.fa{
+  cursor: pointer;
+}
+.loader{
+  padding-right: 2px;
+}
+label[for=table-upload]{
+  background-color: transparent;
+  border: none;
+
+}
+
+

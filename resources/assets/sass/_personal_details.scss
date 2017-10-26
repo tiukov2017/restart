@@ -1,0 +1,32 @@
+.personal-data{
+  .containerField{
+   position: relative;
+
+    .screenshot{
+      position: absolute;
+      left: 3px;
+      top: 76px;
+    }
+  }
+  .simpleField{
+    label{
+      color: #5a609b;
+      font-weight: 900;
+      font-size: 20px;
+    }
+    input{
+      font-size: 20px;
+    }
+  }
+
+  .button{
+    padding: 40px 0px;
+    text-align: center;
+  }
+  .images{
+    padding-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}

@@ -1,0 +1,59 @@
+@import "constants";
+
+
+.social_tabs {
+  padding: 0 15px;
+  border-left: 3px dotted #8d3b65;
+  margin-top: 31px;
+  height: 400px;
+
+  li {
+    list-style: none;
+    height: 30px;
+    color: #888888;
+    font-size: 16px;
+    margin-bottom: 5px;
+    a {
+      padding-right: 30px;
+      vertical-align: middle;
+      color: #888888;
+      font-weight: 700;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    a:visited{
+      text-decoration: none;
+    }
+
+  }
+
+  li.active, li:hover {
+    background-color: $mainColor;
+
+    color: #fff;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+.social-small-icon{
+  position: absolute;
+  right: 87px;
+  top: 65px;
+  width: 27px;
+}
+
+.social_tabs_content{
+  padding-top: 31px;
+  height: 450px;
+  overflow-y: auto;
+  textarea{
+    height: 100%;
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+}

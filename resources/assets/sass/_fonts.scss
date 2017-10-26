@@ -1,0 +1,9 @@
+@import "mixin";
+
+@include importFont('almoni-dl-aaa-300',$fontAlmoni,300);
+@include importFont('almoni-dl-aaa-400',$fontAlmoni,400);
+@include importFont('almoni-dl-aaa-700',$fontAlmoni,700);
+@include importFont('almoni-dl-aaa-900',$fontAlmoni,900);
+@include importFont('opensanshebrew-regular-webfont',$openSansHebrew,100);
+
+

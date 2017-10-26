@@ -1,0 +1,76 @@
+
+table{
+  border-collapse: collapse;
+  .stakeholders-table-title{
+
+    text-align: right!important;
+    color: black;
+    width: 100%;
+}
+
+
+  thead{
+    background-color: #d8dae5;
+  }
+  th{
+    text-align: center;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 16px;
+
+  }
+  tr {
+    border-bottom: 1px solid #5a609b;;
+    .simpleField{
+      padding-top: 0;
+      border: none;
+      vertical-align: middle;
+      padding-bottom: 31px;
+    }
+    &.collapseAbleFieldBlock {
+      border:none;
+    }
+    &.table-data-row{
+      td{
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
+    }
+    input {
+      width: 100%;
+      text-align: center;
+      background: none;
+    }
+  }
+  .table-cell-input{
+
+    .empty_input{
+      border: none;
+      padding-bottom: 0;
+    }
+      .simpleField{
+        margin-bottom:0!important;
+        padding-top: 0!important;
+
+    }
+
+  }
+  &.companies-table{
+    td{
+      vertical-align: middle;
+    }
+  }
+
+  .table{
+    background-color: #f8f8f8!important;
+  }
+td{
+  border-top:1px solid #5a609b;
+}
+}
+
+.table>tbody+tbody{
+  border-top:1px solid #5a609b;
+  border-bottom:1px solid #5a609b;
+
+}
